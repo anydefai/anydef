@@ -15,12 +15,12 @@ anydef OpenClaw 加密工具包 0.1 (Encryption Toolkit)
 可选加密完整对话记录工具调用结果storage/tool_results/
 可选加密敏感 API 返回值Agent 配置config/agents/建议加密含 API Key 等敏感配置向量嵌入元数据storage/vectors/可选加密关联的文本元数据
 
-# 初始化 Agent 加密配置
-# 为指定 Agent 初始化加密
-# 在 Agent 中使用（透明调用）
-# 读取时自动解密
-# 上传文件自动加密存储
-# 查看加密状态
+#初始化 Agent 加密配置
+为指定 Agent 初始化加密
+在 Agent 中使用（透明调用）
+读取时自动解密
+上传文件自动加密存储
+查看加密状态
 输出：
 Agent: agent_001
 加密状态: ✅ 已启用
