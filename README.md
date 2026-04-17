@@ -246,20 +246,9 @@ anydef-encryption 技能包是一个为 OpenClaw 平台设计的 Agent 数据透
 
 三层密钥结构：层层包装、泄露隔离、轮换高效
 
-主密钥 (Master Key / MK)
-  │
-  │  存储于: 环境变量 / KMS / 1Password / 本地密钥文件
-  │  永不落盘（仅内存或外部安全存储）
-  │
-  └──► KEK (Key Encryption Key)
-         │  每个 Agent 独立一个
-         │  用于包装 DEK
-         │
-         ├──► files-dek     (加密文件内容)
-         ├──► memory-dek    (加密 Memory)
-         ├──► sessions-dek  (加密对话历史)
-         ├──► tool_results-dek (加密工具调用结果)
-         └──► metadata-dek  (加密向量元数据)
+<img width="896" height="794" alt="7e2c9d1f-f84c-4725-9c26-5e1a00ac9c21" src="https://github.com/user-attachments/assets/1ab206a9-d4f9-41b3-a21b-cc4c323a765e" />
+
+
 
 密钥三层结构（MK → KEK → DEK）
 
