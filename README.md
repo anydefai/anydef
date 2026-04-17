@@ -26,6 +26,7 @@
 
 ### Security Warning
 **Do not lose your passphrase.** Because this is a zero-knowledge system, there is no "password reset" functionality. If the passphrase is lost, all encrypted data is permanently inaccessible.
+**Only support one agent one user .
 
 ---
 
@@ -51,3 +52,4 @@
 
 ### 安全警告
 **请务必牢记您的口令。** 由于采用零知识系统设计，这里没有“重置密码”功能。如果您丢失了口令，所有已加密的数据将永久无法找回。
+**当前版本只支持单agent单用户场景。单agent多用户场景在计划中。
