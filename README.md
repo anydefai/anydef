@@ -28,8 +28,6 @@ await EncryptionService.unlock(userId, channelId, 'passphrase');
 await EncryptionService.save(userId, channelId, 'memory', 'myKey', 'data');
 ```
 
-**Only support one agent one user .**
-
 ---
 
 ## 中文
@@ -60,5 +58,4 @@ await EncryptionService.save(userId, channelId, 'memory', 'myKey', '数据');
 ### 安全警告
 **请务必牢记您的口令。** 由于采用零知识系统设计，这里没有“重置密码”功能。如果您丢失了口令，所有已加密的数据将永久无法找回。
 
-**当前版本只支持单agent单用户场景**。单agent多用户场景在计划中。
->>>>>>> 5acfce8cfa4d198ad0730f873f8f03c943236cea
+
